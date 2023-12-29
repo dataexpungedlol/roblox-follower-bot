@@ -14,8 +14,8 @@ browser.get("https://roblox.com/login")
 username = browser.find_element(By.ID, "login-username")
 password = browser.find_element(By.ID, "login-password")
 
-username.send_keys("") # Type Roblox Account Nickname here
-password.send_keys("") # Type Roblox Account Password here
+username.send_keys("cnaotic_individual") # Type Roblox Account Nickname here
+password.send_keys("ragemode343") # Type Roblox Account Password here
 
 voiti = browser.find_element(By.ID, "login-button")
 voiti.click()
